@@ -1,0 +1,24 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    /*para crear grillas debemos tener la propiedad display 
+    en grid para poder usar el sistema de grillas*/
+    display: grid;
+    /*tamaño de las 3 primeras columnas*/
+    /* grid-template-columns: 100px 200px; */
+    grid-template-rows: 150px 250px;
+    /* grid-auto-rows: 150px; */
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    /*brechas y espacios entre filas y columnas*/
+    row-gap: 15px;
+    column-gap: 30px;
+    /*Si tenemos el mismo espaciado entre filas y columnas podemos usar
+    */
+    /* gap: 30px; */
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
