@@ -1,24 +1,47 @@
 .contenedor{
-    border: 5px solid #e1bee7;
+    /* border: 5px solid #e1bee7;
     background-color: #fff1ff;
     /*para crear grillas debemos tener la propiedad display 
     en grid para poder usar el sistema de grillas*/
-    display: grid;
+    /* display: grid; */
     /*tamaño de las 3 primeras columnas*/
     /* grid-template-columns: 100px 200px; */
-    grid-template-rows: 150px 250px;
+    /* grid-template-rows: 150px 250px; */
     /* grid-auto-rows: 150px; */
-    grid-auto-columns: 150px;
-    grid-auto-flow: column;
+    /* grid-auto-columns: 150px;
+    grid-auto-flow: column; */
     /*brechas y espacios entre filas y columnas*/
-    row-gap: 15px;
-    column-gap: 30px;
+    /* row-gap: 15px;
+    column-gap: 30px; */
     /*Si tenemos el mismo espaciado entre filas y columnas podemos usar
     */
     /* gap: 30px; */
+
+
+    /*ejemplo practico*/
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
 }
 
-.item{
-    border: 5px solid #00bcd4;
+.itemUno{
+    /* border: 1px solid black; */
+    background-color: greenyellow;
+    font-size: 4rem;
+}
+.itemDos{
+    border: 1px solid black;
+    background-color: lawngreen;
+    font-size: 4rem;
+}
+.itemTres{
+    /* border: 1px solid black; */
+    background-color: green;
     font-size: 4rem;
 }
