@@ -19,7 +19,7 @@
 
 
     /*ejemplo practico*/
-    border: 1px solid black;
+    /* border: 1px solid black;
 
     display: grid;
     grid-template-rows: 100px 100px 100px;
@@ -28,20 +28,38 @@
     gap: 20px;
     justify-content:center;
     align-items: center;
+} */
+
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    height: 600px;
+    /* justify-content: center;
+    align-content: center; */
+    place-content: flex-end;
+    justify-items: flex-end;
+    align-items: flex-start;
 }
+
 
 .itemUno{
     /* border: 1px solid black; */
+    border: 5px solid #00bcd4;
     background-color: greenyellow;
     font-size: 4rem;
 }
 .itemDos{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 5px solid #00bcd4;
     background-color: lawngreen;
     font-size: 4rem;
 }
 .itemTres{
     /* border: 1px solid black; */
+    border: 5px solid #00bcd4;
     background-color: green;
     font-size: 4rem;
 }
